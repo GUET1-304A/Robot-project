@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" <!-- 与官方项目背景色一致 -->
+    android:gravity="center">
+
+    <!-- 迎宾功能界面：可后续添加标题、状态提示（如“正在检测人脸...”） -->
+    <TextView
+        android:id="@+id/tv_welcome_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="迎宾机器人就绪，等待检测人脸..."
+        android:textSize="18sp" <!-- 符合官方UI字体规范 -->
+        android:textColor="@color/text_black" /> <!-- 官方项目默认文字色 -->
+
+</LinearLayout>
